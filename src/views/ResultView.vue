@@ -16,11 +16,17 @@ const playAgain = () => {
 </script>
 
 <template>
-  <div
-    class="min-h-screen flex items-center justify-center p-4 font-sans bg-[url('@/assets/bg/bg.png')] bg-cover bg-center"
-  >
+  <div class="min-h-screen flex items-center justify-center p-4 font-kanit">
+    <div class="absolute inset-0 w-full h-full -z-20">
+      <img
+        src="../assets/bg/bg.png"
+        alt="Background"
+        class="w-full h-full object-fill object-center"
+      />
+      <div class="absolute inset-0 bg-black/50 backdrop-blur-[2px]"></div>
+    </div>
     <div
-      class="bg-black rounded-[2.5rem] p-10 w-full max-w-lg flex flex-col items-center shadow-2xl relative overflow-hidden"
+      class="relative z-10 w-[92%] max-w-160 rounded-[2.5rem] p-8 sm:p-12 flex flex-col items-center justify-center overflow-hidden bg-black/50 backdrop-blur-xl border border-[#c874b2]/20 shadow-[0_8px_32px_0_rgba(0,0,0,0.8)] group/card hover:border-[#c874b2]/40 transition-colors duration-500"
     >
       <div class="mb-6 w-full flex justify-center">
         <img
@@ -49,14 +55,14 @@ const playAgain = () => {
       <div class="flex flex-col sm:flex-row gap-5 w-full justify-center px-4">
         <button
           @click="goBack"
-          class="flex-1 bg-[#8c8c8c] hover:bg-[#7a7a7a] text-white font-bold py-3 px-8 rounded-2xl border-4 border-[#b3b3b3] transition-transform hover:scale-105 active:scale-95 uppercase tracking-wider shadow-lg"
+          class="flex-1 sm:flex-[0.5] flex items-center justify-center gap-3 py-3 sm:py-4 px-6 rounded-2xl font-semibold text-lg sm:text-xl transition-all duration-300 border-2 outline-none cursor-pointer bg-gray-600 hover:bg-gray-500 text-white border-gray-500 hover:border-gray-400 shadow-lg"
         >
           Back
         </button>
 
         <button
           @click="playAgain"
-          class="flex-1 bg-[#094d5e] hover:bg-[#0c6278] text-white font-bold py-3 px-8 rounded-2xl border-4 border-[#81cddf] transition-transform hover:scale-105 active:scale-95 uppercase tracking-wider shadow-lg"
+          class="flex-1 sm:flex-[0.5] flex items-center justify-center gap-3 py-3 sm:py-4 px-6 rounded-2xl font-semibold text-lg sm:text-xl transition-all duration-300 border-2 outline-none cursor-pointer bg-[#094d5e] hover:bg-[#0c6278] text-white border-[#81cddf] hover:border-[#94d9e4] shadow-lg"
         >
           Play Again
         </button>
@@ -66,4 +72,5 @@ const playAgain = () => {
 </template>
 
 <style scoped>
+
 </style>
