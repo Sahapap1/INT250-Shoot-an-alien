@@ -78,7 +78,7 @@ npm run dev
 | 👤 Member         | 💼 Responsibility                                |
 | ----------------- | ------------------------------------------------ |
 | 👨‍💻 Wachitanan 034 |  UI / UX Design (layout, graphic ) and Document (how to play)        |
-| 👩‍💻 Sahaphap 046 |  Game Logic (shoot, score, combo system) and UI (animation)  |
+| 👩‍💻 Sahaphap 046 |  Game Logic (shoot, score, combo system) and UI (animation) เขียน script logic การนับคะแนนยิงเอเลี่ยนบวกคะแนนตามสีหรือลบคะแนน นำภาพ sprite set มา run เป็น animation |
 | 👨‍💻 Ittiched 057 | Game Mechanics (spawn system, difficulty, timer)            |
 | 👩‍💻 Panumed 107 | UI / UX Design (layout, responsive ) and Sound System (BGM, SFX, mute system)  |
 
