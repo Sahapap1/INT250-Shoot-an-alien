@@ -39,6 +39,7 @@
 
 ## 📂 Project Structure
 
+```
 src/
 ├── components/
 │ ├── Alien.vue
@@ -59,7 +60,7 @@ src/
 └── assets/
 ├── sprite/
 └── sound/
-
+```
 ---
 
 ## ▶️ How to Run
@@ -73,10 +74,10 @@ npm run dev
 
 | 👤 Member         | 💼 Responsibility                                |
 | ----------------- | ------------------------------------------------ |
-| 👨‍💻 Developer 1 | Game Logic (shoot, score, combo system)          |
-| 👩‍💻 Developer 2 | UI / UX Design (layout, animation, responsive)   |
-| 👨‍💻 Developer 3 | Sound System (BGM, SFX, mute system)             |
-| 👩‍💻 Developer 4 | Game Mechanics (spawn system, difficulty, timer) |
+| 👨‍💻 Wachitanan 034 |  UI / UX Design (layout, graphic ) and Document (how to play)        |
+| 👩‍💻 Sahaphap 046 |  Game Logic (shoot, score, combo system) and UI (animation)  |
+| 👨‍💻 Ittiched 057 | Game Mechanics (spawn system, difficulty, timer)            |
+| 👩‍💻 Panumed 107 | UI / UX Design (layout, responsive ) and Sound System (BGM, SFX, mute system)  |
 
 ---
 
