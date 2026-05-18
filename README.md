@@ -80,7 +80,7 @@ npm run dev
 | ----------------- | ------------------------------------------------ |
 | 👨‍💻 Wachitanan 034 |  UI / UX Design (layout, graphic ) and Document (how to play)        |
 | 👩‍💻 Sahaphap 046 |  Game Logic (Shoot, Score, Combo System) & UI Animation พัฒนาและออกแบบระบบการยิง (shooting mechanic) รวมถึงการคำนวณคะแนน (score system) และระบบคอมโบ (combo system) โดยกำหนดเงื่อนไขการเพิ่มหรือลด คะแนนตามประเภทและสีของเอเลี่ยนที่ถูกยิง นอกจากนี้ได้นำชุดภาพ sprite มาประยุกต์ใช้เพื่อสร้างแอนิเมชัน (animation) ให้กับตัวละครและเอฟเฟกต์ต่าง ๆ ภายในเกม เพื่อให้การแสดงผลมีความลื่นไหลและสมจริงยิ่งขึ้น |
-| 👨‍💻 Ittiched 057 | Game Mechanics (spawn system, difficulty, timer)            |
+| 👨‍💻 Ittiched 057 | Game Mechanics (spawn system, difficulty, timer) พัฒนาและออกแบบระบบกลไกหลักของเกม (game mechanics) ซึ่งครอบคลุมถึงระบบการเกิดของเอเลี่ยน (spawn system) โดยกำหนดรูปแบบ ตำแหน่ง และความถี่ในการปรากฏตัว รวมถึงการออกแบบระบบความยาก (difficulty) ที่ปรับเปลี่ยนและเพิ่มความท้าทายขึ้นตามระยะเวลาหรือความคืบหน้าของผู้เล่น นอกจากนี้ยังได้พัฒนาระบบจับเวลา (timer) เพื่อใช้เป็นเงื่อนไขในการนับถอยหลังหรือควบคุมการสิ้นสุดของเกม ซึ่งช่วยจัดการจังหวะการเล่น (pacing) ให้มีความสมดุลและสร้างความตื่นเต้นให้กับผู้เล่นได้ดียิ่งขึ้น |
 | 👩‍💻 Panumed 107 | UI / UX Design (layout, responsive ) and Sound System (BGM, SFX, mute system)  |
 
 ---
