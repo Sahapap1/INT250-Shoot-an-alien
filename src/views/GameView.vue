@@ -4,7 +4,7 @@ import MuteButton from '@/components/MuteButton.vue';
 import Alien from '@/components/Alien.vue';
 import Blaster from '@/components/ฺBlaster.vue';
 import Flash from '@/components/Flash.vue';
-import pauseSound from '@/assets/sound/Pause.MP3'
+import pauseSound from '@/assets/sound/Pause.mp3'
 
 import { useUISound } from '@/composables/useUISound'
 import { useAlienSpawner } from '@/composables/useAlienSpawner'

@@ -1,7 +1,7 @@
 import shootSoundFile from '@/assets/sound/Laser.mp3'
-import hitSoundFile from '@/assets/sound/Kill-Plus.MP3'
+import hitSoundFile from '@/assets/sound/Kill-Plus.mp3'
 import missSoundFile from '@/assets/sound/Missed.mp3'
-import penaltySoundFile from '@/assets/sound/Kill-Minus.MP3'
+import penaltySoundFile from '@/assets/sound/Kill-Minus.mp3'
 
 export function useShoot({
   flashes,
