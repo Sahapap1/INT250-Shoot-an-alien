@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import bgMusic from '@/assets/sound/BackgroundSound.mp3'
+import bgMusic from '../assets/sound/BackgroundSound.mp3'
 
 const isMuted = ref(false)
 
