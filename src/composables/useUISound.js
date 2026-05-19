@@ -1,4 +1,4 @@
-import clickSoundFile from '@/assets/sound/SelectButton.mp3'
+import clickSoundFile from '../assets/sound/SelectButton.mp3'
 
 export function useUISound() {
 
